@@ -20,7 +20,9 @@ public class DigitTest {
 //        assertEquals("._.\n._|\n|_.", digit.printDigits(2));
 //        assertEquals("._.\n._|\n._|", digit.printDigits(3));
 
+
         assertEquals("._. ._. ...\n._| ._| ..|\n._| |_. ..|", digit.printDigits(321));
+
     }
 
     @Test

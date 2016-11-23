@@ -33,6 +33,7 @@ public class Digit {
         for(int j = itemsChar.length; j > 0; j--){
             items[itemsChar.length - j] = Character.getNumericValue(itemsChar[j - 1]);
         }
+
         for(int line = 0; line < 3; line++){
             for (int i = 0; i <= itemsChar.length -1; i++ ){
                 if(  itemsChar[i] != 'a'){
@@ -45,5 +46,6 @@ public class Digit {
                 result += "\n";
         }
         return result;
+
     }
 }
