@@ -19,8 +19,8 @@ public class DigitTest {
 //        assertEquals("... ._.\n..| ._|\n..| |_.", digit.printDigits(12));
 //        assertEquals("._. ._.\n._| ._|\n._| |_.", digit.printDigits(32));
 
-        assertEquals("._. ._. ._.\n._| ._| ._|\n._| |_. |_.", digit.printDigits(659));
-        assertEquals("._. ._. ...\n._| ._| ..|\n._| |_. ..|", digit.printDigits(321));
+//        assertEquals("._. ._. ._.\n._| ._| ._|\n._| |_. |_.", digit.printDigits(659));
+//        assertEquals("._. ._. ...\n._| ._| ..|\n._| |_. ..|", digit.printDigits(321));
     }
 
 

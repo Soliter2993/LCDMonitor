@@ -19,17 +19,6 @@ public class Digit {
             items[itemsChar.length - i] = Character.getNumericValue(itemsChar[i - 1]);
         }
 
-//        if (index > 99) {
-//            items[0] = index % 10;
-//            items[1] = ((index - items[0]) / 10) % 10;
-//            items[2] = (index - items[0]) / 100;
-//            return printDigits(items[2], items[1], items[0]);
-//        }
-//        if (index > 9) {
-//            items[0] = index % 10;
-//            items[1] = (index - items[0]) / 10;
-//            return printDigits(items[1], items[0]);
-//        }
 
         return "";
     }
